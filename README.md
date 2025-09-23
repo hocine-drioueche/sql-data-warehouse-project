@@ -49,7 +49,7 @@ This project involves:
 ### Building the Data Warehouse (Data Engineering)
 
 **Objective**:  
-Develop a modern data warehouse using MySQL Workbench to consolidate sales data, enabling analytical reporting and informed decision-making.
+Develop a modern data warehouse using SQL SERVER to consolidate sales data, enabling analytical reporting and informed decision-making.
 
 **Specifications**:  
 
@@ -131,7 +131,7 @@ Ce projet comprend :
 ### Construction du Data Warehouse (Ingénierie des Données)
 
 **Objectif** :  
-Développer un entrepôt de données moderne avec MySQL Workbench afin de consolider les données de ventes, permettant un reporting analytique et une prise de décision éclairée.
+Développer un entrepôt de données moderne avec SQL SERVER afin de consolider les données de ventes, permettant un reporting analytique et une prise de décision éclairée.
 
 **Spécifications** :  
 
