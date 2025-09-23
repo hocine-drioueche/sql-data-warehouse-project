@@ -24,7 +24,7 @@ This project involves:
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 ---
-## Important Tools:
+## 🛠️ Important Tools:
 
 SQL Server Express: Lightweight server for hosting your SQL database.
 
@@ -43,18 +43,22 @@ Develop a modern data warehouse using MySQL Workbench to consolidate sales data,
 
 #### Specifications
 
-**Data Sources** : Import data from two source systems (ERP and CRM) provided as CSV files.
-**Data Quality** : Cleanse and resolve data quality issues prior to analysis.
-**Integration** : Combine both sources into a single, user-friendly data model designed for analytical queries.
-**Scope** : Focus on the latest dataset only; historization of data is not required.
-**Documentation** : Provide clear documentation of the data model to support both business stakeholders and analytics teams.
+-**Data Sources** : Import data from two source systems (ERP and CRM) provided as CSV files.
+
+-**Data Quality** : Cleanse and resolve data quality issues prior to analysis.
+
+-**Integration** : Combine both sources into a single, user-friendly data model designed for analytical queries.
+
+-**Scope** : Focus on the latest dataset only; historization of data is not required.
+
+-**Documentation** : Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
 
 ----
 
 
 
-### BI: Analytics & Reporting (Data Analysis)
+### 📊 BI: Analytics & Reporting (Data Analysis)
 
 #### Objective
 
