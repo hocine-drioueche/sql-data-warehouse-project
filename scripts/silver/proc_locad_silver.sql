@@ -18,6 +18,32 @@ Usage Example:
 ===============================================================================
 */
 
+/*
+===============================================================================
+Procédure Stockée : Chargement de la Couche Silver (Bronze -> Silver)
+===============================================================================
+Objectif du Script :
+    Cette procédure stockée effectue le processus ETL (Extract, Transform, Load)
+    pour remplir les tables du schéma 'silver' à partir du schéma 'bronze'.
+    
+Actions effectuées :
+    - Tronque les tables Silver.
+    - Insère les données transformées et nettoyées du Bronze dans les tables Silver.
+
+Paramètres :
+    Aucun.
+    Cette procédure stockée n’accepte aucun paramètre et ne retourne aucune valeur.
+
+Exemple d'Utilisation :
+    EXEC Silver.load_silver;
+===============================================================================
+*/
+
+
+
+
+
+
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
     DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @batch_end_time DATETIME; 
