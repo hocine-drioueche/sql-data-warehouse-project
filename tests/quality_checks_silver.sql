@@ -17,6 +17,28 @@ Usage Notes:
 ===============================================================================
 */
 
+/*
+===============================================================================
+Vérifications de Qualité
+===============================================================================
+Objectif du Script :
+    Ce script effectue diverses vérifications de qualité pour la cohérence, la 
+    précision et la standardisation des données dans la couche 'Silver'. Il inclut 
+    des contrôles pour :
+    - Les clés primaires nulles ou en double.
+    - Les espaces indésirables dans les champs texte.
+    - La standardisation et la cohérence des données.
+    - Les plages et ordres de dates invalides.
+    - La cohérence des données entre les champs liés.
+
+Notes d'Utilisation :
+    - Exécuter ces vérifications après le chargement des données dans la couche Silver.
+    - Examiner et résoudre toute anomalie détectée lors des contrôles.
+===============================================================================
+*/
+
+
+
 -- ====================================================================
 -- Checking 'silver.crm_cust_info'
 -- ====================================================================
