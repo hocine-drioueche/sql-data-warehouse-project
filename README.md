@@ -1,3 +1,9 @@
+# 🌐 Data Warehouse and Analytics Project / Projet de Data Warehouse et d’Analyse  
+
+[English](#data-warehouse-and-analytics-project) | [Français](#projet-de-data-warehouse-et-danalyse)  
+
+---
+
 # Data Warehouse and Analytics Project  
 # Projet de Data Warehouse et d’Analyse  
 
