@@ -16,6 +16,31 @@ Usage Example:
     EXEC bronze.load_bronze;
 ===============================================================================
 */
+
+
+/*
+===============================================================================
+Procédure Stockée : Chargement de la Couche Bronze (Source -> Bronze)
+===============================================================================
+Objectif du Script :
+    Cette procédure stockée charge les données dans le schéma 'bronze' à partir de fichiers CSV externes.
+    Elle effectue les actions suivantes :
+    - Tronque les tables Bronze avant de charger les données.
+    - Utilise la commande `BULK INSERT` pour charger les données des fichiers CSV vers les tables Bronze.
+
+Paramètres :
+    Aucun.
+    Cette procédure stockée n’accepte aucun paramètre et ne retourne aucune valeur.
+
+Exemple d'Utilisation :
+    EXEC bronze.load_bronze;
+===============================================================================
+*/
+
+
+
+
+
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
 	DECLARE @start_time DATETIME, @end_time DATETIME, @batch_start_time DATETIME, @batch_end_time DATETIME; 
