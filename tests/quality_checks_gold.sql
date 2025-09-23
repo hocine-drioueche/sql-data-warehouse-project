@@ -14,6 +14,27 @@ Usage Notes:
 ===============================================================================
 */
 
+
+/*
+===============================================================================
+Vérifications de Qualité
+===============================================================================
+Objectif du Script :
+    Ce script effectue des vérifications de qualité pour valider l'intégrité, la 
+    cohérence et la précision de la couche Gold. Ces vérifications garantissent :
+    - L'unicité des clés surrogate dans les tables dimensionnelles.
+    - L'intégrité référentielle entre les tables de faits et les tables dimensionnelles.
+    - La validation des relations dans le modèle de données à des fins analytiques.
+
+Notes d'Utilisation :
+    - Examiner et résoudre toute anomalie détectée lors des vérifications.
+===============================================================================
+*/
+
+
+
+
+
 -- ====================================================================
 -- Checking 'gold.dim_customers'
 -- ====================================================================
