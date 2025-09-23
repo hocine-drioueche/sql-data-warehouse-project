@@ -9,6 +9,22 @@ Script Purpose:
 ===============================================================================
 */
 
+/*
+===============================================================================
+Script DDL : Création des Tables Bronze
+===============================================================================
+Objectif du Script :
+    Ce script crée les tables dans le schéma 'bronze', en supprimant les tables existantes
+    si elles existent déjà.
+    Exécutez ce script pour redéfinir la structure DDL des tables 'bronze'.
+===============================================================================
+*/
+
+
+
+
+
+
 IF OBJECT_ID('bronze.crm_cust_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_cust_info;
 GO
