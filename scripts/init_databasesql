@@ -13,6 +13,26 @@ WARNING:
     and ensure you have proper backups before running this script.
 */
 
+
+/*
+=============================================================
+Création de la Base de Données et des Schémas
+=============================================================
+Objectif du Script :
+    Ce script crée une nouvelle base de données nommée 'DataWarehouse' après avoir 
+    vérifié si elle existe déjà. Si la base de données existe, elle est supprimée 
+    puis recréée. De plus, le script configure trois schémas dans la base de données : 
+    'bronze', 'silver' et 'gold'.
+	
+AVERTISSEMENT :
+    L'exécution de ce script supprimera la totalité de la base de données 'DataWarehouse' 
+    si elle existe. Toutes les données présentes dans la base seront définitivement supprimées. 
+    Procédez avec prudence et assurez-vous d’avoir des sauvegardes appropriées avant d’exécuter ce script.
+*/
+
+
+
+
 USE master;
 GO
 
